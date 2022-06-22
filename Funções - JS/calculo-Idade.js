@@ -23,7 +23,14 @@ const animal = {
     raca: 'Vira-Lata',
 };
 
+const animal2 = {
+    nome: 'Terry',
+    idade: 3,
+    raca: 'Pastor-Alemão',
+};
+
 console.log (calculaIdade.call(pessoa2, 30));
 console.log (calculaIdade.call(animal, 3));
 console.log (calculaIdade.call(pessoa1, 50));
 console.log (calculaIdade.call(pessoa3, 23));
+console.log (calculaIdade.call(animal2, 23));
